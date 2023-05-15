@@ -1,1 +1,2 @@
-# UIC-CS251
+# UIC CS251
+Repository containing executable project solutions.
