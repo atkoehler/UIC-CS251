@@ -1,2 +1,2 @@
 # UIC CS251
-Repository containing executable project solutions.
+Repository containing executable project solutions and course notes.
