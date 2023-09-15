@@ -18,6 +18,7 @@
 
 using namespace std;
 
+// Class declaration for our queue implementation
 class myQ
 {
     private:
@@ -32,7 +33,7 @@ class myQ
         void transfer(); 
 };
 
-/// @brief transfer all items from stack 1 to stack 2, reversing stack 1 order
+/// @brief transfer all items from stack1 to stack2, reversing stack1 order
 /// @post stack1 will be empty, stack2 will contain all the queue values
 void myQ::transfer()
 {
@@ -43,6 +44,8 @@ void myQ::transfer()
     }    
 }
 
+/// @brief acquire the value of the front-most element in the queue
+/// @return the integer value of the front-most queue element
 int myQ::front()
 {
     // Nothing in stack2, move stack1 over
@@ -61,6 +64,7 @@ int myQ::front()
     return stack2.top();
 }
 
+/// @brief remove front-most element from the queue
 void myQ::pop()
 {
     // Nothing in stack2, move stack 1 over
@@ -80,16 +84,22 @@ void myQ::pop()
     stack2.pop();
 }
 
+/// @brief place a new element at the back of the queue
+/// @param value the integer value of the element to be placed into the queue
 void myQ::push(int value)
 {
     stack1.push(value);
 }
 
+/// @brief how many elements are in the queue
+/// @return the quantity of the elements in the queue
 size_t myQ::size() const
 {
     return stack1.size() + stack2.size();
 }
 
+/// @brief determine if the queue is empty
+/// @return true if the queue is empty, otherwise false
 bool myQ::empty() const
 {
     return stack1.empty() && stack2.empty();
