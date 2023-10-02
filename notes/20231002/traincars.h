@@ -1,9 +1,9 @@
 /// @file traincars.h
 /// @author Adam T Koehler, PhD
-/// @date September 27, 2023
+/// @date October 2, 2023
 /// @brief Class code and notes from the lecture. This code utilizes
-///         builds a several classes to demonstrate class design and 
-///         inheritance in C++.
+///         several classes to demonstrate C++ inheritance and polymorphism.
+///         Including the creation of several virtual functions.
 
 // Copyright Notice
 // This document is protected by U.S. copyright law. Reproduction and 

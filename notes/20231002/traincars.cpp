@@ -1,9 +1,8 @@
 /// @file traincars.cpp
 /// @author Adam T Koehler, PhD
-/// @date September 27, 2023
+/// @date October 2, 2023
 /// @brief Class code and notes from the lecture. This code utilizes
-///         builds a several classes to demonstrate class design and 
-///         inheritance in C++.
+///         several classes to demonstrate C++ inheritance and polymorphism.
 
 // Copyright Notice
 // This document is protected by U.S. copyright law. Reproduction and 
@@ -22,7 +21,6 @@ using namespace std;
 // ----------------------------------------------------
 // ------------- TrainCar Implementations -------------
 // ----------------------------------------------------
-
 TrainCar::~TrainCar()
 {
     cout << "Destroying Generic: " << toString() << endl;
@@ -52,7 +50,7 @@ void TrainCar::setCarName(string name)
 
 string TrainCar::toString() const
 {
-    // This part was written with the activity handout
+    // This part was written with the class-inheritance activity handout
     return "{" + carName + ", " + to_string(modelYear) + "}";
 }
 
@@ -239,7 +237,7 @@ string ComboCar::toString() const
 {
     string s;
 
-    // This part was written with the activity handout
+    // This part was written with the class-inheritance activity handout
     s += "{" + getCarName() + ", " + to_string(modelYear) + ", ";
     s += "Seats: " + to_string(getSeats()) + ", ";
     s += "People: " + to_string(getPeopleCount()) + ", ";    
