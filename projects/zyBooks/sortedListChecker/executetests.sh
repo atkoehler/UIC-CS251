@@ -1,4 +1,20 @@
 #!/bin/bash
+
+#  @file executetests.sh
+#  @author Adam T Koehler, PhD
+#  @date October 10, 2023
+#  @brief An executable script that compiles and executes Catch framework
+#           tests to help assess test coverage based on executing all the 
+#           tests on broken implementations.
+
+#  Copyright Notice
+#  This document is protected by U.S. copyright law. Reproduction and 
+#  distribution of this work, including posting or sharing through any medium, 
+#  is explicitly prohibited by law, and also violates UIC's Student 
+#  Disciplinary Policy (A2-c. Unauthorized Collaboration; and A2-e3. 
+#  Participation in Academically Dishonest Activities: Material Distribution).
+
+
 # set -x  # show execution flag
 
 # define fancy colors and reset values
