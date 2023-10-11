@@ -13,7 +13,7 @@
 ##############
 
 build:
-	g++ -std=c++20 -Wall 20231009.cpp -o prog.out
+	g++ -std=c++20 -Wall 20231011.cpp -o prog.out
 	
 run:
 	./prog.out
