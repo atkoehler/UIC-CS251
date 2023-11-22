@@ -2,7 +2,7 @@
 /// @author Adam T Koehler, PhD
 /// @date November 14, 2023
 /// @brief A simple C++ example of building a tree from a vector using
-///        the mathematical algorithms associated with min-heaps.
+///        the mathematical algorithms associated with heaps.
 ///      
 ///        Requires C++20, compile with -std=c++20
 
