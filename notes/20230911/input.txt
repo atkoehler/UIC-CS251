@@ -1,4 +1,0 @@
-salmon 25
-hefty 7
-learn 12
-cookie 32

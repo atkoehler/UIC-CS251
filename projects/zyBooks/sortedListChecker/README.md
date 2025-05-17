@@ -1,1 +1,0 @@
-Project executables for the data structures course at the University of Illinois Chicago (CS 251). Projects are separated into different directories based on what system they were compiled on.
